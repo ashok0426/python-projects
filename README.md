@@ -1,25 +1,28 @@
-# Python Beginner Projects
+# python-projects
 
-This repository contains a collection of beginner-friendly Python programs created while learning Python fundamentals.
+Small collection of beginner Python scripts that demonstrate basic programming concepts:
+- fizzbuzz.py — classic FizzBuzz
+- even_or_odd_checker.py — checks if number is even/odd
+- number_analyzer.py — analyzes positivity/negativity of a number
+- positive_negative_or_zero.py — determines positive/negative/zero
+- temperature_checker.py — simple temperature conditional demo
 
-## Projects Included
-- Number Analyzer (positive/negative, even/odd)
-- Even or Odd Checker
-- Temperature Checker
-- FizzBuzz Program
-- Largest Number Finder
-- Square of a Number
-- Multiplication Table Generator
+## Requirements
+- Python 3.8+
 
-## Concepts Used
-- Python functions
-- if-else and elif conditions
-- for loops
-- User input handling
-- Basic logic building
+## Usage
+Run a script from the repo root, for example:
+```bash
+python fizzbuzz.py
+python even_or_odd_checker.py
+```
 
-## Purpose
-This repository is created to practice Python basics and build a strong foundation for problem-solving and freelancing.
+## Contributing
+- Rename files to snake_case (no spaces)
+- Add tests under `tests/` and a GitHub Actions workflow to run them
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
 Ashok Tamang
